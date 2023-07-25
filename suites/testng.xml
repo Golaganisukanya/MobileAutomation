@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Suite">
+
+    <parameter name="runOn" value="local" />
+    <parameter name="deviceConfig" value="iphone14.json" />
+    <parameter name="appiumServerURL" value="http://0.0.0.0:4723" />
+    <test name="iOS test">
+        <classes>
+            <class name="tests.IOSSampleTest"/>
+        </classes>
+    </test>
+
+<!--    <parameter name="runOn" value="local" />-->
+<!--    <parameter name="deviceConfig" value="android_nox.json" />-->
+<!--    <parameter name="appiumServerURL" value="http://0.0.0.0:4723/wd/hub" />-->
+<!--    <test name="Android test">-->
+<!--        <classes>-->
+<!--            <class name="tests.AndroidSampleTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SauceLabs Appium Suite">
+
+    <parameter name="runOn" value="cloud:saucelabs" />
+    <parameter name="deviceConfig" value="sl_ios_sim.json" />
+    <parameter name="appiumServerURL" value="https://sukanya.appium1:d4921aa0-c8c7-4a3e-8c54-549f268f0643@ondemand.us-west-1.saucelabs.com:443/wd/hub" />
+    <test name="iOS test">
+        <classes>
+            <class name="tests.IOSSauceLabsTests"/>
+        </classes>
+    </test>
+</suite>

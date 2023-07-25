@@ -1,0 +1,9 @@
+{
+  "appium:automationName": "UIAutomator2",
+  "platformName": "android",
+  "appium:deviceName": "127.0.0.1:62001",
+  "appium:app": "/apps/sl.apk",
+  "appPackage": "com.swaglabsmobileapp",
+  "appWaitActivity": "com.swaglabsmobileapp.MainActivity",
+  "appium:noReset": true
+}
